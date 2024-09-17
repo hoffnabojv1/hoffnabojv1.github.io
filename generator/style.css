@@ -1,0 +1,26 @@
+#preview{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+}
+#preview iframe{
+    position: absolute;
+    height: calc(min(100vh, 70.71vw));
+    width: calc((min(50vw, 70.71vh)));
+    right: 0;
+    top:0;
+    overflow-x: hidden;
+}
+
+body,label,td{
+    font-family: ubuntu, sans-serif;
+}
+body{
+    margin-right: 0;
+    overflow-x: hidden;
+}

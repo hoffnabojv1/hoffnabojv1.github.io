@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoffnaboj</title>
+    <link rel = "stylesheet" href="style.css">
+    <link rel = "stylesheet" href="global_style.css">
+    <script src = "../storage_manager.js"></script>
+    <script src="script.js"></script>
+</head>
+<body onload="init()">
+    <div id="preview">
+        <iframe id = "preif">
+        </iframe>
+        <button onclick = "preview.style.display = 'none'">Wróć do generatora</button>
+        <button onclick = "generate_tasks()">Wygeneruj jeszcze raz</button>
+        <button onclick = "useset()">Użyj tego zestawu</button>
+        <button onclick="preif.contentWindow.document.getElementById('pribut').click()">Drukuj/ zapisz jako PDF</button>
+    </div>
+    <label>Liczba zadań:</label>
+    <input id="num" type="number" value="35"><br>
+    <label>Rozkład zadań (trudność):</label><br>
+    Poziom 1: <input type="range" min = "0" max = "100" id="l0inp"> <br>
+    Poziom 2: <input type="range" min = "0" max = "100" id="l1inp"> <br>
+    Poziom 3: <input type="range" min = "0" max = "100" id="l2inp"> <br>
+    Poziom 4: <input type="range" min = "0" max = "100" id="l3inp"> <br>
+    Poziom 5: <input type="range" min = "0" max = "100" id="l4inp"> <br>
+    Poziom 6: <input type="range" min = "0" max = "100" id="l5inp"> <br>
+    <label>Rozkład zadań (działy):</label><br>
+    <table>
+        <tr>
+            <td>Algebra:</td><td><input type="range" min = "0" max = "100" value="19.6"  id="t0inp"></td>
+        </tr><tr>
+            <td>Kombinatoryka:</td><td><input type="range" min = "0" max = "100" value="31.8" id="t1inp"></td>
+        </tr><tr>
+            <td>Geometria:</td><td><input type="range" min = "0" max = "100" value = "27.8" id="t2inp"></td>
+        </tr><tr>
+            <td>Teoria liczb:</td><td><input type="range" min = "0" max = "100" value="20.8" id="t3inp"></td>
+        </tr>
+    </table>
+    Rozkład poziomów trudności i działów będzie znormalizowany przed rozpoczęciem generacji zestawu zadań.<br>
+    Lista drużyn:
+    <textarea id="teamstempinp"></textarea>
+    <input type="button" value="Generuj zestaw" onclick="generate_tasks()">
+</body>
+</html>
