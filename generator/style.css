@@ -24,3 +24,13 @@ body{
     margin-right: 0;
     overflow-x: hidden;
 }
+
+button{
+  width: 100px;
+  padding: 30px;
+  color: white;
+  background-color: black;
+  font-family: ubuntu, sans-serif;
+  border: none;
+  border-radius: 100px;
+}
