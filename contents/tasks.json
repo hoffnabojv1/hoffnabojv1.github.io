@@ -401,7 +401,7 @@
   },
   {
     "ID": "B1D478528750",
-    "content": " W turnieju szachowym każdy z graczy gra przeciwko każdemu innemu dokładnie raz. Ponadto, gracze uzgodnili, że partia nie może się zakończyć remisem. Nazwijmy grupę czterech graczy \\emph{uporządkowaną} jeśli jest w&nbsp;niej wyraźny wygrany i wyraźny przegrany, tj. osoba, która w tej grupie wszystko wygrała i osoba, która wszystko przegrała. Znajdź najmniejszą dodatnią liczbę całkowitą $n$ taką, że każdy turniej z $n$ graczami zawiera grupę czterech graczy, która jest uporządkowana.\n<i>",
+    "content": " W turnieju szachowym każdy z graczy gra przeciwko każdemu innemu dokładnie raz. Ponadto, gracze uzgodnili, że partia nie może się zakończyć remisem. Nazwijmy grupę czterech graczy <b>uporządkowaną</b> jeśli jest w&nbsp;niej wyraźny wygrany i wyraźny przegrany, tj. osoba, która w tej grupie wszystko wygrała i osoba, która wszystko przegrała. Znajdź najmniejszą dodatnią liczbę całkowitą $n$ taką, że każdy turniej z $n$ graczami zawiera grupę czterech graczy, która jest uporządkowana.\n<i>",
     "answer": " 8\n",
     "type": "C",
     "level": 5,
@@ -548,7 +548,7 @@
   },
   {
     "ID": "1445D8E4DB12",
-    "content": "\nPowiemy, że dodatnia liczba całkowita $n$ jest \\emph{n\\'abojowa}, jeżeli suma cyfr tej liczby jest podzielna przez $17$ oraz suma cyfr liczby $n+10$ także jest podzielna przez $17$. Jaka jest najmniejsza liczba n\\'abojowa?\n<i>",
+    "content": "\nPowiemy, że dodatnia liczba całkowita $n$ jest <b>n\\'abojowa</b>, jeżeli suma cyfr tej liczby jest podzielna przez $17$ oraz suma cyfr liczby $n+10$ także jest podzielna przez $17$. Jaka jest najmniejsza liczba n\\'abojowa?\n<i>",
     "answer": "\n$7999$\n",
     "type": "NT",
     "level": 1,
@@ -932,7 +932,7 @@
   },
   {
     "ID": "CD1B4C966A6",
-    "content": "\nDzień nazwiemy \\emph{szczęśliwym}, jeżeli jego zapis w&nbsp;formacie \\emph{DD.MM.RRRR} zawiera osiem parami różnych cyfr, gdzie \\emph{DD} oznacza dzień, \\emph{MM} miesiąc, a&nbsp;\\emph{RRRR} --- rok oraz dla dni i&nbsp;miesięcy o&nbsp;numerach mniejszych od $10$ za pierwszą cyfrę przyjmujemy zero. Przykładowo 26.04.1785 był dniem szczęśliwym. Kiedy nadejdzie najbliższy (licząc od dzisiaj) szczęśliwy dzień?\n<i>",
+    "content": "\nDzień nazwiemy <b>szczęśliwym</b>, jeżeli jego zapis w&nbsp;formacie <b>DD.MM.RRRR</b> zawiera osiem parami różnych cyfr, gdzie <b>DD</b> oznacza dzień, <b>MM</b> miesiąc, a&nbsp;<b>RRRR</b> --- rok oraz dla dni i&nbsp;miesięcy o&nbsp;numerach mniejszych od $10$ za pierwszą cyfrę przyjmujemy zero. Przykładowo 26.04.1785 był dniem szczęśliwym. Kiedy nadejdzie najbliższy (licząc od dzisiaj) szczęśliwy dzień?\n<i>",
     "answer": "\n17.06.2345\n",
     "type": "C",
     "level": 0,
@@ -1196,7 +1196,7 @@
   },
   {
     "ID": "CD1B4C966A39",
-    "content": "\nNiech $ABC$ będzie trójkątem równobocznym. Punkt $P$ leżący we wnętrzu trójkąta $ABC$ nazywamy \\emph{błyszczącym}, jeśli możemy znaleźć $27$ półprostych o początku w&nbsp;$P$ przecinających boki trójkąta $ABC$ tak, że ten trójkąt będzie podzielony przez te półproste na $27$ mniejszych trójkątów o równym polu. Wyznacz liczbę błyszczących punktów wewnątrz trójkąta $ABC$.\n\n<i>",
+    "content": "\nNiech $ABC$ będzie trójkątem równobocznym. Punkt $P$ leżący we wnętrzu trójkąta $ABC$ nazywamy <b>błyszczącym</b>, jeśli możemy znaleźć $27$ półprostych o początku w&nbsp;$P$ przecinających boki trójkąta $ABC$ tak, że ten trójkąt będzie podzielony przez te półproste na $27$ mniejszych trójkątów o równym polu. Wyznacz liczbę błyszczących punktów wewnątrz trójkąta $ABC$.\n\n<i>",
     "answer": "\n$\\binom{26}{2} = 325$\n",
     "type": "G",
     "level": 3,
@@ -1268,7 +1268,7 @@
   },
   {
     "ID": "CD1B4C966A48",
-    "content": "\n\\emph{Zygzak} składa się z&nbsp;dwóch równoległych półprostych o przeciwnych zwrotach i&nbsp;odcinka łączącego ich początki.\nNa ile maksymalnie części może podzielić płaszczyznę dziesięć zygzaków?\n<i>",
+    "content": "\n<b>Zygzak</b> składa się z&nbsp;dwóch równoległych półprostych o przeciwnych zwrotach i&nbsp;odcinka łączącego ich początki.\nNa ile maksymalnie części może podzielić płaszczyznę dziesięć zygzaków?\n<i>",
     "answer": "\n416\n",
     "type": "G",
     "level": 4,
@@ -1818,7 +1818,7 @@
   },
   {
     "ID": "0C9D24EF9D1",
-    "content": "\nKamil, Łukasz, Mikołaj i Natalia pisali egzamin. Otrzymaliśmy informację, że wyniki przez nich uzyskane to, w pewnej kolejności, $2$, $12$, $86$ i $6$. Ponadto:\n\\begin{itemize}\n\\item wynik Kamila był \\emph{pampam} niż wynik Mikołaja, \n\\item wynik Mikołaja był \\emph{pampam} niż wynik Łukasza,\n\\item wynik Natalii był \\emph{pampam} niż wynik Łukasza,\n\\item wynik Kamila był \\emph{pampam} niż wynik Natalii,\n\\end{itemize}\ngdzie słowo \\emph{pampam} znaczy ,,mniejszy'' lub ,,większy'', jednak nasz informator zapomniał powiedzieć, które z&nbsp;tłumaczeń jest prawdziwe (wiemy jednak, że wszystkie cztery tłumaczą się tak samo). Oblicz, ile punktów uzyskali łącznie Mikołaj i Natalia.\n<i>",
+    "content": "\nKamil, Łukasz, Mikołaj i Natalia pisali egzamin. Otrzymaliśmy informację, że wyniki przez nich uzyskane to, w pewnej kolejności, $2$, $12$, $86$ i $6$. Ponadto:\n\\begin{itemize}\n\\item wynik Kamila był <b>pampam</b> niż wynik Mikołaja, \n\\item wynik Mikołaja był <b>pampam</b> niż wynik Łukasza,\n\\item wynik Natalii był <b>pampam</b> niż wynik Łukasza,\n\\item wynik Kamila był <b>pampam</b> niż wynik Natalii,\n\\end{itemize}\ngdzie słowo <b>pampam</b> znaczy ,,mniejszy'' lub ,,większy'', jednak nasz informator zapomniał powiedzieć, które z&nbsp;tłumaczeń jest prawdziwe (wiemy jednak, że wszystkie cztery tłumaczą się tak samo). Oblicz, ile punktów uzyskali łącznie Mikołaj i Natalia.\n<i>",
     "answer": "\n18\n",
     "type": "C",
     "level": 0,
@@ -2002,7 +2002,7 @@
   },
   {
     "ID": "0C9D24EF9D24",
-    "content": "\nDorota ma cztery pary skarpetek odpowiednio z napisami \\emph{poniedziałek}, \\emph{wtorek}, \\emph{środa}, \\emph{czwartek}. Na ile sposobów może je nosić od poniedziałku do czwartku, aby każdego dnia obie skarpetki były różne i na żadnej nie była napisana nazwa obecnego dnia?\n\n\\note Każda skarpetka pasuje na każdą nogę (nie ma ,,lewych'' i ,,prawych'' skarpetek). Co więcej, noszenie jednej skarpetki na lewej nodze i innej na prawej liczy się jako ten sam sposób noszenia, co noszenie ich odwrotnie.\n<i>",
+    "content": "\nDorota ma cztery pary skarpetek odpowiednio z napisami <b>poniedziałek</b>, <b>wtorek</b>, <b>środa</b>, <b>czwartek</b>. Na ile sposobów może je nosić od poniedziałku do czwartku, aby każdego dnia obie skarpetki były różne i na żadnej nie była napisana nazwa obecnego dnia?\n\n\\note Każda skarpetka pasuje na każdą nogę (nie ma ,,lewych'' i ,,prawych'' skarpetek). Co więcej, noszenie jednej skarpetki na lewej nodze i innej na prawej liczy się jako ten sam sposób noszenia, co noszenie ich odwrotnie.\n<i>",
     "answer": "\n9\n",
     "type": "C",
     "level": 2,
@@ -2114,7 +2114,7 @@
   },
   {
     "ID": "0C9D24EF9D38",
-    "content": "\nMadzia wymyśliła operację o nazwie \\emph{madzing}, działającą na (skończonych) ciągach liczb całkowitych. Mając dany ciąg bierze jego cztery kopie, zwiększa ich wyrazy kolejno o $0$, $2$, $3$ i $5$ oraz łączy ciągi, otrzymując znów pojedynczy ciąg. Na przykład, mając dany ciąg  $(8, 3)$ otrzyma $(8, 3, 10, 5, 11, 6, 13, 8)$. Jeżeli Madzia zacznie od jednoelementowego ciągu $(0)$ i będzie wykonywać operację madzingu dopóki nie otrzyma co najmniej 2018 liczb, to jaka będzie liczba 2018-ta? (Wyraz najbardziej na lewo jest uznawany za pierwszy). \n<i>",
+    "content": "\nMadzia wymyśliła operację o nazwie <b>madzing</b>, działającą na (skończonych) ciągach liczb całkowitych. Mając dany ciąg bierze jego cztery kopie, zwiększa ich wyrazy kolejno o $0$, $2$, $3$ i $5$ oraz łączy ciągi, otrzymując znów pojedynczy ciąg. Na przykład, mając dany ciąg  $(8, 3)$ otrzyma $(8, 3, 10, 5, 11, 6, 13, 8)$. Jeżeli Madzia zacznie od jednoelementowego ciągu $(0)$ i będzie wykonywać operację madzingu dopóki nie otrzyma co najmniej 2018 liczb, to jaka będzie liczba 2018-ta? (Wyraz najbardziej na lewo jest uznawany za pierwszy). \n<i>",
     "answer": "\n17\n",
     "type": "C",
     "level": 3,
@@ -2202,7 +2202,7 @@
   },
   {
     "ID": "0C9D24EF9D49",
-    "content": "\nNiech $a(1),a(2),\\dots,a(n),\\dots$ będzie rosnącym ciągiem dodatnich liczb całkowitych spełniającym zależność $a(a(n))=3n$ dla każdej dodatniej liczby całkowitej $n$. Wyznacz $a(2018)$.\n\n\\note Ciąg jest \\emph{rosnący} jeśli $a(m)<a(n)$ dla $m<n$.\n<i>",
+    "content": "\nNiech $a(1),a(2),\\dots,a(n),\\dots$ będzie rosnącym ciągiem dodatnich liczb całkowitych spełniającym zależność $a(a(n))=3n$ dla każdej dodatniej liczby całkowitej $n$. Wyznacz $a(2018)$.\n\n\\note Ciąg jest <b>rosnący</b> jeśli $a(m)<a(n)$ dla $m<n$.\n<i>",
     "answer": "\n3867\n",
     "type": "C",
     "level": 4,
@@ -2210,7 +2210,7 @@
   },
   {
     "ID": "0C9D24EF9D50",
-    "content": "\nTrójkąt równoboczny $T$ o boku długości $2018$ jest podzielony na $2018^2$ małych trójkątów równobocznych o&nbsp;boku długości $1$. Zbiór $M$ wierzchołków tych małych trójkątów nazwiemy \\emph{niezależnym}, jeżeli dla każdych dwóch różnych punktów $A, B\\in M$ odcinek $AB$ nie jest równoległy do żadnego z&nbsp;boków trójkąta&nbsp;$T$. Jaka jest największa możliwa liczba elementów zbioru niezależnego?\n<i>",
+    "content": "\nTrójkąt równoboczny $T$ o boku długości $2018$ jest podzielony na $2018^2$ małych trójkątów równobocznych o&nbsp;boku długości $1$. Zbiór $M$ wierzchołków tych małych trójkątów nazwiemy <b>niezależnym</b>, jeżeli dla każdych dwóch różnych punktów $A, B\\in M$ odcinek $AB$ nie jest równoległy do żadnego z&nbsp;boków trójkąta&nbsp;$T$. Jaka jest największa możliwa liczba elementów zbioru niezależnego?\n<i>",
     "answer": "\n1346\n",
     "type": "C",
     "level": 5,
@@ -2354,7 +2354,7 @@
   },
   {
     "ID": "470BC0FCEE14",
-    "content": "\nIle jest permutacji zbioru liczb $\\{1, 2, 3, 4\\}$ o takiej własności, że po wymazaniu dowolnej liczby, pozostały ciąg nie jest ani rosnący, ani malejący?\n\nUwaga: \\emph{Permutacja} zbioru liczb to ciąg zawierający każdą z nich dokładnie raz.\n<i>",
+    "content": "\nIle jest permutacji zbioru liczb $\\{1, 2, 3, 4\\}$ o takiej własności, że po wymazaniu dowolnej liczby, pozostały ciąg nie jest ani rosnący, ani malejący?\n\nUwaga: <b>Permutacja</b> zbioru liczb to ciąg zawierający każdą z nich dokładnie raz.\n<i>",
     "answer": "\n$4$\n",
     "type": "C",
     "level": 1,
@@ -2482,7 +2482,7 @@
   },
   {
     "ID": "470BC0FCEE30",
-    "content": "\nZnajdź wszystkie dodatnie liczby całkowite $n$ spełniające równość\n$\\left\\lfloor \\dfrac n5\\right\\rfloor + \\left\\lfloor \\dfrac n7\\right\\rfloor +\\left\\lfloor \\dfrac n{35}\\right\\rfloor  =2019.$\n\nUwaga: wyrażenie $\\lfloor x\\rfloor$ oznacza część całkowitą (\\emph{podłogę}) $x$, tzn. największą liczbę całkowitą nieprzekraczającą $x$.\n\n<i>",
+    "content": "\nZnajdź wszystkie dodatnie liczby całkowite $n$ spełniające równość\n$\\left\\lfloor \\dfrac n5\\right\\rfloor + \\left\\lfloor \\dfrac n7\\right\\rfloor +\\left\\lfloor \\dfrac n{35}\\right\\rfloor  =2019.$\n\nUwaga: wyrażenie $\\lfloor x\\rfloor$ oznacza część całkowitą (<b>podłogę</b>) $x$, tzn. największą liczbę całkowitą nieprzekraczającą $x$.\n\n<i>",
     "answer": "\n$5439$\n",
     "type": "NT",
     "level": 3,
@@ -2602,7 +2602,7 @@
   },
   {
     "ID": "470BC0FCEE45",
-    "content": "\nKażde pole szachownicy o wymiarach $6 \\times 7$ zostało pokolorowane na jeden z&nbsp;czterech kolorów: biały, zielony, czerwony lub niebieski. Powiemy, że dane kolorowanie jest \\emph{atrakcyjne}, jeśli wszystkie pola dowolnego kwadratu $2 \\times 2$ na tej szachownicy mają parami różne kolory. Wyznacz liczbę atrakcyjnych kolorowań.\n<i>",
+    "content": "\nKażde pole szachownicy o wymiarach $6 \\times 7$ zostało pokolorowane na jeden z&nbsp;czterech kolorów: biały, zielony, czerwony lub niebieski. Powiemy, że dane kolorowanie jest <b>atrakcyjne</b>, jeśli wszystkie pola dowolnego kwadratu $2 \\times 2$ na tej szachownicy mają parami różne kolory. Wyznacz liczbę atrakcyjnych kolorowań.\n<i>",
     "answer": "\n$1128$\n",
     "type": "C",
     "level": 4,
@@ -2898,7 +2898,7 @@
   },
   {
     "ID": "194191A09827",
-    "content": "\nSiedem trolejbusów kursuje między czternastoma przystankami leżącymi przy jednej prostej ulicy. Każdy trolejbus rozpoczyna swój kurs na jednym z przystanków i porusza się w jednym kierunku, aż dotrze do końca ulicy, gdzie znajduje się pierwszy lub ostatni przystanek na ulicy. Tam trolejbus zawraca i kontynuuje kurs w przeciwnym kierunku. Wszystkie trolejbusy poruszają się z tą samą prędkością i przejeżdżają przez dokładnie jeden przystanek w ciągu minuty. Zarządca linii umieścił trolejbusy na przystankach w taki sposób, że \n\\begin{enumerate}\n    \\item na każdym przystanku znajduje się co najwyżej jeden trolejbus; \n    \\item po minucie kursowania trolejbusów, dalej na każdym przystanku będzie znajdował się co najwyżej jeden trolejbus -- niezależnie od tego, w których kierunkach będą one kursować.\n\\end{enumerate}\nNa ile sposobów trolejbusy mogły zostać przypisane do przystanków? Zakładamy, że wszystkie trolejbusy są identyczne.\n<i>",
+    "content": "\nSiedem trolejbusów kursuje między czternastoma przystankami leżącymi przy jednej prostej ulicy. Każdy trolejbus rozpoczyna swój kurs na jednym z przystanków i porusza się w jednym kierunku, aż dotrze do końca ulicy, gdzie znajduje się pierwszy lub ostatni przystanek na ulicy. Tam trolejbus zawraca i kontynuuje kurs w przeciwnym kierunku. Wszystkie trolejbusy poruszają się z tą samą prędkością i przejeżdżają przez dokładnie jeden przystanek w ciągu minuty. Zarządca linii umieścił trolejbusy na przystankach w taki sposób, że \n\\begin{itemize}\n    \\item na każdym przystanku znajduje się co najwyżej jeden trolejbus; \n    \\item po minucie kursowania trolejbusów, dalej na każdym przystanku będzie znajdował się co najwyżej jeden trolejbus -- niezależnie od tego, w których kierunkach będą one kursować.\n\\end{itemize}\nNa ile sposobów trolejbusy mogły zostać przypisane do przystanków? Zakładamy, że wszystkie trolejbusy są identyczne.\n<i>",
     "answer": "\n$20$\n",
     "type": "C",
     "level": 2,
@@ -3018,7 +3018,7 @@
   },
   {
     "ID": "194191A09842",
-    "content": "\nZałóżmy, że funkcja $f\\colon \\mathbb{N} \\to \\mathbb{N}$, spełnia warunek\n\\[ f(m + n) \\geq f(m) + f(f(n)) - 1 \\]\ndla wszystkich $ m,n \\in \\mathbb{N}$. Znajdź średnią arytmetyczną wszystkich możliwych wartości $f(2020)$.\n\n\\noindent \\emph{Uwaga:} W tym zadaniu $\\mathbb{N}$ oznacza zbiór \\emph{dodatnich} liczb całkowitych.\n<i>",
+    "content": "\nZałóżmy, że funkcja $f\\colon \\mathbb{N} \\to \\mathbb{N}$, spełnia warunek\n\\[ f(m + n) \\geq f(m) + f(f(n)) - 1 \\]\ndla wszystkich $ m,n \\in \\mathbb{N}$. Znajdź średnią arytmetyczną wszystkich możliwych wartości $f(2020)$.\n\n\\noindent <b>Uwaga:</b> W tym zadaniu $\\mathbb{N}$ oznacza zbiór <b>dodatnich</b> liczb całkowitych.\n<i>",
     "answer": "\n$1011$\n",
     "type": "NT",
     "level": 4,
@@ -3066,7 +3066,7 @@
   },
   {
     "ID": "E731F5A7872",
-    "content": "\nLiczbę nazwiemy \\emph{superparzystą} jeśli wszystkie jej cyfry są parzyste. Ile pięciocyfrowych liczb superparzystych ma tę własność, że po zsumowaniu z&nbsp;liczbą $24680$ otrzymujemy inną liczbę superparzystą?\n<i>",
+    "content": "\nLiczbę nazwiemy <b>superparzystą</b> jeśli wszystkie jej cyfry są parzyste. Ile pięciocyfrowych liczb superparzystych ma tę własność, że po zsumowaniu z&nbsp;liczbą $24680$ otrzymujemy inną liczbę superparzystą?\n<i>",
     "answer": "\n$90$\n",
     "type": "C",
     "level": 0,
@@ -3114,7 +3114,7 @@
   },
   {
     "ID": "E731F5A7878",
-    "content": "\nZnajdź największą trzycyfrową dodatnią liczbę całkowitą $n$, która ma następujące własności:\n\\begin{enumerate}\n    \\item suma cyfr $n$ wynosi $16$,\n    \\item iloczyn cyfr $n$ jest różny od $0$, ale cyfra jedności tego iloczynu wynosi $0$,\n    \\item suma cyfr iloczynu cyfr $n$ wynosi $3$.\n\\end{enumerate}\n<i>",
+    "content": "\nZnajdź największą trzycyfrową dodatnią liczbę całkowitą $n$, która ma następujące własności:\n\\begin{itemize}\n    \\item suma cyfr $n$ wynosi $16$,\n    \\item iloczyn cyfr $n$ jest różny od $0$, ale cyfra jedności tego iloczynu wynosi $0$,\n    \\item suma cyfr iloczynu cyfr $n$ wynosi $3$.\n\\end{itemize}\n<i>",
     "answer": "\n$853$\n",
     "type": "C",
     "level": 0,
@@ -3372,7 +3372,7 @@
   },
   {
     "ID": "E731F5A78740",
-    "content": "\n\\emph{Dzielącym rozkładem} dodatniej liczby całkowitej $N$ nazywamy taki ciąg dodatnich liczb całkowitych $d_1, d_2, \\ldots, d_k$, że $k\\geq 1$, $d_1\\neq 1$ oraz zachodzi ciąg podzielności $d_1 \\mid d_2 \\mid d_3\\mid \\cdots\\mid d_k\\mid N$, przy czym $d_1\\cdot d_2 \\cdot \\ldots \\cdot d_k = N$. Liczbę $d_k$ nazywamy \\emph{liderem} tego rozkładu. Jaka jest średnia arytmetyczna liderów wszystkich możliwych dzielących rozkładów liczby $720$? % jasne jest tu, że bierzemy średnią po rozkładach??? tak\n<i>",
+    "content": "\n<b>Dzielącym rozkładem</b> dodatniej liczby całkowitej $N$ nazywamy taki ciąg dodatnich liczb całkowitych $d_1, d_2, \\ldots, d_k$, że $k\\geq 1$, $d_1\\neq 1$ oraz zachodzi ciąg podzielności $d_1 \\mid d_2 \\mid d_3\\mid \\cdots\\mid d_k\\mid N$, przy czym $d_1\\cdot d_2 \\cdot \\ldots \\cdot d_k = N$. Liczbę $d_k$ nazywamy <b>liderem</b> tego rozkładu. Jaka jest średnia arytmetyczna liderów wszystkich możliwych dzielących rozkładów liczby $720$? % jasne jest tu, że bierzemy średnią po rozkładach??? tak\n<i>",
     "answer": "\n$204$\n",
     "type": "NT",
     "level": 4,
@@ -3492,7 +3492,7 @@
   },
   {
     "ID": "8DCFFA68985",
-    "content": "\nLiczbę całkowitą dodatnią nazwiemy \\emph{smaczną}, gdy iloczyn jej cyfr wynosi $36$. Zdefiniujmy liczby $a$ i $b$ następująco:\n\\begin{itemize}\n    \\item $a$ jest sumą cyfr najmniejszej możliwej liczby smacznej;\n    \\item $b$ jest najmniejszą możliwą sumą cyfr liczby smacznej.\n\\end{itemize}\nWyznacz różnicę $a-b$. %Zamieniłem \"Oblicz\" na \"Wyznacz\" - KR\n<i>",
+    "content": "\nLiczbę całkowitą dodatnią nazwiemy <b>smaczną</b>, gdy iloczyn jej cyfr wynosi $36$. Zdefiniujmy liczby $a$ i $b$ następująco:\n\\begin{itemize}\n    \\item $a$ jest sumą cyfr najmniejszej możliwej liczby smacznej;\n    \\item $b$ jest najmniejszą możliwą sumą cyfr liczby smacznej.\n\\end{itemize}\nWyznacz różnicę $a-b$. %Zamieniłem \"Oblicz\" na \"Wyznacz\" - KR\n<i>",
     "answer": "\n$3$\n",
     "type": "C",
     "level": 0,
@@ -3724,7 +3724,7 @@
   },
   {
     "ID": "8DCFFA689834",
-    "content": "\nPewna dziedzina muzyki nazywana <i>zmiennym wybijaniem</i> zajmuje się tworzeniem, przy użyciu dzwonów, <i>piosenek</i>, które są ciągami \\emph{taktów}. W jednym takcie, dzwony wybijają w pewnej kolejności, każdy dokładnie raz. Załóżmy, że dane są trzy dzwony ponumerowane liczbami $1$, $2$, $3$. Ze względów technicznych, pozycje dowolnego z&nbsp;dzwonów w sąsiednich taktach mogą różnić się o&nbsp;co najwyżej $1$. Piosenkę nazywamy <i>nudną</i>, jeżeli pewne dwa jej sąsiednie takty są identyczne. Ile istnieje nienudnych piosenek składających się z $21$ taktów, z których zarówno pierwszy, jak i ostatni to $(1,2,3)$?\n",
+    "content": "\nPewna dziedzina muzyki nazywana <i>zmiennym wybijaniem</i> zajmuje się tworzeniem, przy użyciu dzwonów, <i>piosenek</i>, które są ciągami <b>taktów</b>. W jednym takcie, dzwony wybijają w pewnej kolejności, każdy dokładnie raz. Załóżmy, że dane są trzy dzwony ponumerowane liczbami $1$, $2$, $3$. Ze względów technicznych, pozycje dowolnego z&nbsp;dzwonów w sąsiednich taktach mogą różnić się o&nbsp;co najwyżej $1$. Piosenkę nazywamy <i>nudną</i>, jeżeli pewne dwa jej sąsiednie takty są identyczne. Ile istnieje nienudnych piosenek składających się z $21$ taktów, z których zarówno pierwszy, jak i ostatni to $(1,2,3)$?\n",
     "answer": "\n$349526$\n",
     "type": "C",
     "level": 3,
@@ -3860,7 +3860,7 @@
   },
   {
     "ID": "8DCFFA689851",
-    "content": "\nValentin gra w&nbsp;grę strategiczno-ekonomiczną \\emph{Settlers}. Rozpoczyna nową grę z&nbsp;początkowym ustawieniem będącym wyspą o&nbsp;następujących własnościach:\n\\begin{itemize}\n\\item  Wyspa ma kształt koła z&nbsp;trzema portami $A$, $B$, $C$ na wybrzeżu.\n\\item  Na wyspie są cztery ważne budynki $D$, $E$, $G$, $H$, umieszczone w&nbsp;wierzchołkach prostokąta $DEGH$.\n\\item  Zamek $D$ znajduje się w&nbsp;środku wyspy.  \n\\item  Kościół $E$ jest zlokalizowany dokładnie w&nbsp;połowie drogi między portem $B$ i&nbsp;portem $A$.\n\\item  Chata myśliwego $G$ jest położona bliżej portu $B$ niż portu $A$.\n\\item  Magazyn wszystkich zasobów $H$ znajduje się w&nbsp;ortocentrum trójkąta $ABC$.  \n\\end{itemize}\nValentin wie, że odległość od $D$ do $E$ to $8\\,\\mbox{km}$, a&nbsp;odległość od $E$ do $G$ to $13\\,\\mbox{km}$. \nIle kilometrów ma trasa transportu rudy z&nbsp;magazynu do najbliższego portu?\n<i>",
+    "content": "\nValentin gra w&nbsp;grę strategiczno-ekonomiczną <b>Settlers</b>. Rozpoczyna nową grę z&nbsp;początkowym ustawieniem będącym wyspą o&nbsp;następujących własnościach:\n\\begin{itemize}\n\\item  Wyspa ma kształt koła z&nbsp;trzema portami $A$, $B$, $C$ na wybrzeżu.\n\\item  Na wyspie są cztery ważne budynki $D$, $E$, $G$, $H$, umieszczone w&nbsp;wierzchołkach prostokąta $DEGH$.\n\\item  Zamek $D$ znajduje się w&nbsp;środku wyspy.  \n\\item  Kościół $E$ jest zlokalizowany dokładnie w&nbsp;połowie drogi między portem $B$ i&nbsp;portem $A$.\n\\item  Chata myśliwego $G$ jest położona bliżej portu $B$ niż portu $A$.\n\\item  Magazyn wszystkich zasobów $H$ znajduje się w&nbsp;ortocentrum trójkąta $ABC$.  \n\\end{itemize}\nValentin wie, że odległość od $D$ do $E$ to $8\\,\\mbox{km}$, a&nbsp;odległość od $E$ do $G$ to $13\\,\\mbox{km}$. \nIle kilometrów ma trasa transportu rudy z&nbsp;magazynu do najbliższego portu?\n<i>",
     "answer": "\n$10$\n",
     "type": "G",
     "level": 5,
@@ -3980,7 +3980,7 @@
   },
   {
     "ID": "F9398B576F14",
-    "content": "\nIle palindromów pomiędzy $10^3$ a $10^7$ ma parzystą sumę cyfr?\n\n\\note Uwaga: \\emph{Palindrom} to liczba, która się nie zmienia, gdy odwrócimy kolejność jej cyfr, np.&nbsp;$12321$ jest palindromem.\n<i>",
+    "content": "\nIle palindromów pomiędzy $10^3$ a $10^7$ ma parzystą sumę cyfr?\n\n\\note Uwaga: <b>Palindrom</b> to liczba, która się nie zmienia, gdy odwrócimy kolejność jej cyfr, np.&nbsp;$12321$ jest palindromem.\n<i>",
     "answer": "\n$5940$\n",
     "type": "C",
     "level": 1,
@@ -4068,7 +4068,7 @@
   },
   {
     "ID": "F9398B576F25",
-    "content": "\nArek wymyślił nową figurę szachową którą nazwał \\emph{piorun}. Piorun może poruszać się do przodu jak wieża oraz do tyłu jak skoczek tak jak pokazano na rysunku. Arek postawił go na środku szachownicy $3\\times 3$ i&nbsp;wykonał $2020$ ruchów zgodnie z zasadami. Ile maksymalnie razy piorun stanął na jednym polu?\n\n<i>",
+    "content": "\nArek wymyślił nową figurę szachową którą nazwał <b>piorun</b>. Piorun może poruszać się do przodu jak wieża oraz do tyłu jak skoczek tak jak pokazano na rysunku. Arek postawił go na środku szachownicy $3\\times 3$ i&nbsp;wykonał $2020$ ruchów zgodnie z zasadami. Ile maksymalnie razy piorun stanął na jednym polu?\n\n<i>",
     "answer": "\n$673$\n",
     "type": "C",
     "level": 2,
@@ -4220,7 +4220,7 @@
   },
   {
     "ID": "F9398B576F44",
-    "content": "\nLiczbę nazwiemy \\emph{2-pierwszą} jeśli każda para kolejnych cyfr tej liczby tworzy inną dwucyfrową liczbę pierwszą. Na przykład, $237$ jest 2-pierwsza, ale $136$ i $1313$ nie są 2-pierwsze. Znajdź największą 2-pierwszą liczbę. \n<i>",
+    "content": "\nLiczbę nazwiemy <b>2-pierwszą</b> jeśli każda para kolejnych cyfr tej liczby tworzy inną dwucyfrową liczbę pierwszą. Na przykład, $237$ jest 2-pierwsza, ale $136$ i $1313$ nie są 2-pierwsze. Znajdź największą 2-pierwszą liczbę. \n<i>",
     "answer": "\n$619737131179$\n",
     "type": "C",
     "level": 4,
@@ -4244,7 +4244,7 @@
   },
   {
     "ID": "F9398B576F47",
-    "content": "\nDodatnią liczbę całkowitą $n$ nazwiemy \\emph{piętrową}, jeśli da się przejść z dowolnego piętra \\hbox{$8788$-kondygnacyjnego} budynku do każdego innego piętra, dopuszczając wyłącznie schodzenie o $2020$ pięter w&nbsp;dół lub wchodzenie o $n$ pięter do góry. Znajdź największą piętrową liczbę. \n\n\\note Uwaga: $8788$-kondygnacyjny budynek ma $8788$ pięter: parter oraz $8787$ pięter ponad parterem.\n<i>",
+    "content": "\nDodatnią liczbę całkowitą $n$ nazwiemy <b>piętrową</b>, jeśli da się przejść z dowolnego piętra \\hbox{$8788$-kondygnacyjnego} budynku do każdego innego piętra, dopuszczając wyłącznie schodzenie o $2020$ pięter w&nbsp;dół lub wchodzenie o $n$ pięter do góry. Znajdź największą piętrową liczbę. \n\n\\note Uwaga: $8788$-kondygnacyjny budynek ma $8788$ pięter: parter oraz $8787$ pięter ponad parterem.\n<i>",
     "answer": "\n$6763$\n",
     "type": "C",
     "level": 4,
@@ -4484,7 +4484,7 @@
   },
   {
     "ID": "7FDDF9C4A719",
-    "content": "\nPowiemy, że $n$-te urodziny są \\emph{kwadratowe} jeśli $n>1$ oraz gdy dla każdej liczby pierwszej&nbsp;$p$ dzielącej $n$ również $p^2$ dzieli $n$. Przykładowo, urodziny numer $8=2^3$ są kwadratowe, z kolei urodziny numer $56=8\\cdot 7$ nie są. W&nbsp;tym roku Babcia Jadzia już obchodziła swoje 196. urodziny. Ile kwadratowych urodzin przeżyła?\n<i>",
+    "content": "\nPowiemy, że $n$-te urodziny są <b>kwadratowe</b> jeśli $n>1$ oraz gdy dla każdej liczby pierwszej&nbsp;$p$ dzielącej $n$ również $p^2$ dzieli $n$. Przykładowo, urodziny numer $8=2^3$ są kwadratowe, z kolei urodziny numer $56=8\\cdot 7$ nie są. W&nbsp;tym roku Babcia Jadzia już obchodziła swoje 196. urodziny. Ile kwadratowych urodzin przeżyła?\n<i>",
     "answer": "\n$20$\n",
     "type": "NT",
     "level": 1,
@@ -4628,7 +4628,7 @@
   },
   {
     "ID": "7FDDF9C4A737",
-    "content": "\nNiech $x||y$ oznacza konkatenację dwóch dodatnich liczb całkowitych, tzn.&nbsp;liczbę uzyskaną przez napisanie obok siebie wszystkich cyfr występujących w $x$, a następnie tych w $y$, na przykład $3||4=34$, \\hbox{$24||5=245$}, $20||24=2024$.\nDodatnia liczba całkowita $n$ jest nazywana \\emph{trójwidzialną} jeśli istnieją takie trzy parami różne dodatnie liczby całkowite $a$, $b$, $c$ (bez zer wiodących), że $n=a||b||c$ oraz $a$ dzieli $b$ i $b$ dzieli&nbsp;$c$. Jaka jest największa pięciocyfrowa liczba trójwidzialna?\n<i>",
+    "content": "\nNiech $x||y$ oznacza konkatenację dwóch dodatnich liczb całkowitych, tzn.&nbsp;liczbę uzyskaną przez napisanie obok siebie wszystkich cyfr występujących w $x$, a następnie tych w $y$, na przykład $3||4=34$, \\hbox{$24||5=245$}, $20||24=2024$.\nDodatnia liczba całkowita $n$ jest nazywana <b>trójwidzialną</b> jeśli istnieją takie trzy parami różne dodatnie liczby całkowite $a$, $b$, $c$ (bez zer wiodących), że $n=a||b||c$ oraz $a$ dzieli $b$ i $b$ dzieli&nbsp;$c$. Jaka jest największa pięciocyfrowa liczba trójwidzialna?\n<i>",
     "answer": "\n$94590$\n",
     "type": "NT",
     "level": 3,
@@ -4644,7 +4644,7 @@
   },
   {
     "ID": "7FDDF9C4A739",
-    "content": "\nMamy dwie skrzynki: pierwsza zawiera pięć działających żarówek i dziewięć uszkodzonych, natomiast druga zawiera dziewięć działających żarówek i pięć uszkodzonych. Działające żarówki zawsze świecą, podczas gdy uszkodzone świecą z prawdopodobieństwem&nbsp;$p$ (gdzie $0 < p <1$), które jest takie samo dla wszystkich uszkodzonych żarówek. Znajdź wartość&nbsp;$p$, dla której następujące zdarzenia zajdą z takim samym prawdopodobieństwem:\n\\begin{enumerate}\n    \\item Losowo wybrana żarówka z pierwszej skrzynki działa.\n    \\item Dwie różne losowo wybrane żarówki z drugiej skrzynki działają. \n\\end{enumerate}\n<i>",
+    "content": "\nMamy dwie skrzynki: pierwsza zawiera pięć działających żarówek i dziewięć uszkodzonych, natomiast druga zawiera dziewięć działających żarówek i pięć uszkodzonych. Działające żarówki zawsze świecą, podczas gdy uszkodzone świecą z prawdopodobieństwem&nbsp;$p$ (gdzie $0 < p <1$), które jest takie samo dla wszystkich uszkodzonych żarówek. Znajdź wartość&nbsp;$p$, dla której następujące zdarzenia zajdą z takim samym prawdopodobieństwem:\n\\begin{itemize}\n    \\item Losowo wybrana żarówka z pierwszej skrzynki działa.\n    \\item Dwie różne losowo wybrane żarówki z drugiej skrzynki działają. \n\\end{itemize}\n<i>",
     "answer": "\n$\\frac{7}{20}$\n",
     "type": "A",
     "level": 3,
@@ -4716,7 +4716,7 @@
   },
   {
     "ID": "7FDDF9C4A748",
-    "content": "\nKarolinie znudziły się tradycyjne działania takie jak dodawanie czy odejmowanie. Stworzyła zatem własne działanie i nazwała je \\emph{gwiazdkowaniem}. To działanie, oznaczane jako $a\\star b$, jest zdefiniowane na liczbach rzeczywistych i ma następujące własności:\n\\begin{enumerate}\n\\item $(a + b) \\star c = (a\\star c) + (b\\star c)$\n\\item $a\\star (b+c) = (a\\star b) \\star c$\n\\end{enumerate}\nWiedząc, że $3 \\star 2 = 54$, wyznacz wartość $5 \\star 4$.\n<i>",
+    "content": "\nKarolinie znudziły się tradycyjne działania takie jak dodawanie czy odejmowanie. Stworzyła zatem własne działanie i nazwała je <b>gwiazdkowaniem</b>. To działanie, oznaczane jako $a\\star b$, jest zdefiniowane na liczbach rzeczywistych i ma następujące własności:\n\\begin{itemize}\n\\item $(a + b) \\star c = (a\\star c) + (b\\star c)$\n\\item $a\\star (b+c) = (a\\star b) \\star c$\n\\end{itemize}\nWiedząc, że $3 \\star 2 = 54$, wyznacz wartość $5 \\star 4$.\n<i>",
     "answer": "\n$1620$\n",
     "type": "A",
     "level": 4,
