@@ -31,12 +31,17 @@ td:nth-child(1) h2{
 
 .taskcontainer{
     padding-top: 10mm;
-    height: calc(74.25mm - 11mm);
+    height: calc(84.25mm - 11mm);
     page-break-inside: avoid;
     text-align: justify;
     width: 100%;
 }
 
+@media print{
+    .taskcontainer{
+        height: calc(84.25mm - 11mm);
+    }
+}
 table, table tr{
     height: calc(74.25mm - 11mm);
 }
