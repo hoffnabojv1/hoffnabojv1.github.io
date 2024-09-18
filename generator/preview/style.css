@@ -31,7 +31,7 @@ td:nth-child(1) h2{
 
 .taskcontainer{
     padding-top: 10mm;
-    height: calc(74.25mm - 11mm);
+    height: calc(84.25mm - 11mm);
     page-break-inside: avoid;
     text-align: justify;
     width: 100%;
@@ -39,7 +39,7 @@ td:nth-child(1) h2{
 
 @media print{
     .taskcontainer{
-        height: calc(74.25mm - 11mm);
+        height: calc(74.25mm - 13mm) !important;
     }
 }
 table, table tr{
