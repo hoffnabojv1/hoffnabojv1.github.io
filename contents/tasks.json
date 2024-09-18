@@ -143,7 +143,7 @@
   },
   {
     "ID": "B1D478528717",
-    "content": " Wyznacz wszystkie takie pary dodatnich liczb ca\u0142kowitych $a,b$, \u017ce $ab = \\NWD(a,b) + \\NWW(a,b)$, gdzie $\\NWD(a,b)$ to najwi\u0119kszy wsp\u00f3lny dzielnik liczb $a$ i $b$, a $\\NWW(a,b)$ to najmniejsza wsp\u00f3lna wielokrotno\u015b\u0107 liczb $a$ i $b$.\n",
+    "content": " Wyznacz wszystkie takie pary dodatnich liczb ca\u0142kowitych $a,b$, \u017ce $ab = \\mathrm{NWD}(a,b) + \\mathrm{NWW}(a,b)$, gdzie $\\mathrm{NWD}(a,b)$ to najwi\u0119kszy wsp\u00f3lny dzielnik liczb $a$ i $b$, a $\\mathrm{NWW}(a,b)$ to najmniejsza wsp\u00f3lna wielokrotno\u015b\u0107 liczb $a$ i $b$.\n",
     "answer": " (2, 2)\n",
     "type": "NT",
     "level": 1,
