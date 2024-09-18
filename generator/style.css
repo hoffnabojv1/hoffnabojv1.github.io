@@ -11,7 +11,7 @@
 #preview iframe{
     position: absolute;
     height: calc(min(100vh, 70.71vw));
-    width: calc((min(50vw, 70.71vh)));
+    width: 50vw;
     right: 0;
     top:0;
     overflow-x: hidden;
