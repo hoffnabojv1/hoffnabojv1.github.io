@@ -39,7 +39,7 @@ td:nth-child(1) h2{
 
 @media print{
     .taskcontainer{
-        height: calc(74.25mm - 13mm) !important;
+        height: calc(74.25mm - 11mm) !important;
     }
 }
 table, table tr{
