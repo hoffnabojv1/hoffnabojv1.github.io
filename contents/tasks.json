@@ -3820,7 +3820,7 @@
   },
   {
     "ID": "8DCFFA689846",
-    "content": "\nNiech $a,\\, b$ będą dodatnimi liczbami całkowitymi, a $\\left(A_n\\right)_{n=1}^{\\infty}$ będzie ciągiem liczb rzeczywistych spełniającym warunki $A_1=b$, $A_2=a$ oraz\n$A_n=A_{n-1}+A_{n-2}\\quad \\mathrm{dla każdego&nbsp;}n\\geq 3.$\nNastępnie niech $\\left(B_n\\right)_{n=1}^{\\infty}$ będzie ciągiem spełniającym $B_1=a+2b$, $B_2=3a+b$ oraz ponownie\n$B_n=B_{n-1}+B_{n-2}\\quad \\mathrm{dla każdego&nbsp;}n\\geq 3.$\nPonadto wiemy, że istnieją takie $k,\\, l \\geq 1$, że $A_k=2022$ i $B_l=2793$. Jaka jest najmniejsza możliwa wartość $a \\cdot b$?\n<i>",
+    "content": "\nNiech $a,\\, b$ będą dodatnimi liczbami całkowitymi, a $\\left(A_n\\right)_{n=1}^{\\infty}$ będzie ciągiem liczb rzeczywistych spełniającym warunki $A_1=b$, $A_2=a$ oraz\n$A_n=A_{n-1}+A_{n-2}\\quad$ dla każdego&nbsp;$n\\geq 3.$\nNastępnie niech $\\left(B_n\\right)_{n=1}^{\\infty}$ będzie ciągiem spełniającym $B_1=a+2b$, $B_2=3a+b$ oraz ponownie\n$B_n=B_{n-1}+B_{n-2}\\quad \\mathrm{dla każdego&nbsp;}n\\geq 3.$\nPonadto wiemy, że istnieją takie $k,\\, l \\geq 1$, że $A_k=2022$ i $B_l=2793$. Jaka jest najmniejsza możliwa wartość $a \\cdot b$?\n<i>",
     "answer": "\n$15\\cdot72 = 1080$\n",
     "type": "A",
     "level": 4,
