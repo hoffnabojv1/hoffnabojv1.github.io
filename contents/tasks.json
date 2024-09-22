@@ -1570,7 +1570,7 @@
   },
   {
     "ID": "506C155D4629",
-    "content": "\nBydło Dominika jest wyprowadzane na łąkę w&nbsp;kształcie trójkąta $ABC$. Ponieważ jego łaciate krowy i&nbsp;te bez plam nie żyją w&nbsp;zgodzie, Dominik postanowił wybudować dwudziestometrowy płot prostopadły do boku $AC$ zaczynając w&nbsp;punkcie $P$ na $AC$, a&nbsp;kończąc w&nbsp;punkcie $B$, dzieląc całą łąkę na dwa trójkąty prostokątne. Jednakże łaciate krowy (żyjące w&nbsp;części z&nbsp;wierzchołkiem $A$) w&nbsp;proteście wskazały, że \\hbox{$AP : PC = 2 : 7$} i&nbsp;zażądały bardziej sprawiedliwego podziału. Dominik, postanowił więc zamienić wybudowany płot innym, równoległym do starego o&nbsp;końcach leżących na bokach łąki, lecz dzielący łąkę na dwie części o&nbsp;równych polach. Jakiej długości płot powinien wybudować Dominik?\n<i>",
+    "content": "\nBydło Dominika jest wyprowadzane na łąkę w&nbsp;kształcie trójkąta $ABC$. Ponieważ jego łaciate krowy i&nbsp;te bez plam nie żyją w&nbsp;zgodzie, Dominik postanowił wybudować dwudziestometrowy płot prostopadły do boku $AC$ zaczynając w&nbsp;punkcie $P$ na $AC$, a&nbsp;kończąc w&nbsp;punkcie $B$, dzieląc całą łąkę na dwa trójkąty prostokątne. Jednakże łaciate krowy (żyjące w&nbsp;części z&nbsp;wierzchołkiem $A$) w&nbsp;proteście wskazały, że $AP : PC = 2 : 7$ i&nbsp;zażądały bardziej sprawiedliwego podziału. Dominik, postanowił więc zamienić wybudowany płot innym, równoległym do starego o&nbsp;końcach leżących na bokach łąki, lecz dzielący łąkę na dwie części o&nbsp;równych polach. Jakiej długości płot powinien wybudować Dominik?\n<i>",
     "answer": "\n$30 \\sqrt{2/7}$\n",
     "type": "G",
     "level": 2,
@@ -2562,7 +2562,7 @@
   },
   {
     "ID": "470BC0FCEE40",
-    "content": "\nDany jest trójkąt prostokątny $ABC$ o kącie prostym przy wierzchołku $C$, przy czym \\hbox{$AC=4-\\sqrt 3$} i $BC=\\sqrt 3$. Ponadto $D$ i $E$ są takimi punktami, że $ABDE$ jest kwadratem niezawierającym punktu $C$ w jego wnętrzu, a punkt $J$ jest punktem na odcinku $DE$ takim, że $\\angle ACJ = 45^\\circ$. Punkt&nbsp;$K$ leży na odcinku $CJ$, przy czym $AK \\parallel BC$. Ile wynosi pole trójkąta $JKE$?\n<i>",
+    "content": "\nDany jest trójkąt prostokątny $ABC$ o kącie prostym przy wierzchołku $C$, przy czym $AC=4-\\sqrt 3$ i $BC=\\sqrt 3$. Ponadto $D$ i $E$ są takimi punktami, że $ABDE$ jest kwadratem niezawierającym punktu $C$ w jego wnętrzu, a punkt $J$ jest punktem na odcinku $DE$ takim, że $\\angle ACJ = 45^\\circ$. Punkt&nbsp;$K$ leży na odcinku $CJ$, przy czym $AK \\parallel BC$. Ile wynosi pole trójkąta $JKE$?\n<i>",
     "answer": "\n$3 \\sqrt 3 / 8$\n",
     "type": "G",
     "level": 4,
@@ -3972,7 +3972,7 @@
   },
   {
     "ID": "F9398B576F13",
-    "content": "\nKarolina narysowała małe $X$-pentomino składające się z&nbsp;pięciu sąsiadujących kwadratów. Następnie zaznaczyła kropkowaną linią dwie prostopadłe przekątne. W&nbsp;końcu skonstruowała większe \\hbox{$X$-pentomino}, którego niektóre boki leżą na kropkowanych liniach, jak na rysunku. Znajdź stosunek pola dużego $X$-pentomina do pola małego. \n\n<i>",
+    "content": "\nKarolina narysowała małe $X$-pentomino składające się z&nbsp;pięciu sąsiadujących kwadratów. Następnie zaznaczyła kropkowaną linią dwie prostopadłe przekątne. W&nbsp;końcu skonstruowała większe $X$-pentomino, którego niektóre boki leżą na kropkowanych liniach, jak na rysunku. Znajdź stosunek pola dużego $X$-pentomina do pola małego. \n\n<i>",
     "answer": "\n$5:2$\n",
     "type": "G",
     "level": 1,
@@ -4052,7 +4052,7 @@
   },
   {
     "ID": "F9398B576F23",
-    "content": "\nRozważmy półokrąg o środku $C$ i średnicy $AB$. Z pewnego punktu $P$ leżącego na $AB$ wypuszczono wiązkę lasera w kierunku prostopadłym do $AB$ w taki sposób, że odbija się ona od półokręgu w&nbsp;punktach $D$ i $E$, a następnie trafia w punkt $B$. Każde odbicie następuje zgodnie z zasadą ,,kąt padania równa się kątowi odbicia'', to znaczy $\\angle PDC = \\angle EDC$ oraz \\hbox{$\\angle DEC = \\angle BEC$}. Wyznacz $\\angle DCP$ w&nbsp;stopniach.\n\n<i>",
+    "content": "\nRozważmy półokrąg o środku $C$ i średnicy $AB$. Z pewnego punktu $P$ leżącego na $AB$ wypuszczono wiązkę lasera w kierunku prostopadłym do $AB$ w taki sposób, że odbija się ona od półokręgu w&nbsp;punktach $D$ i $E$, a następnie trafia w punkt $B$. Każde odbicie następuje zgodnie z zasadą ,,kąt padania równa się kątowi odbicia'', to znaczy $\\angle PDC = \\angle EDC$ oraz $\\angle DEC = \\angle BEC$. Wyznacz $\\angle DCP$ w&nbsp;stopniach.\n\n<i>",
     "answer": "\n$36^\\circ$\n",
     "type": "G",
     "level": 2,
@@ -4244,7 +4244,7 @@
   },
   {
     "ID": "F9398B576F47",
-    "content": "\nDodatnią liczbę całkowitą $n$ nazwiemy <b>piętrową</b>, jeśli da się przejść z dowolnego piętra \\hbox{$8788$-kondygnacyjnego} budynku do każdego innego piętra, dopuszczając wyłącznie schodzenie o $2020$ pięter w&nbsp;dół lub wchodzenie o $n$ pięter do góry. Znajdź największą piętrową liczbę. \n\n\\note Uwaga: $8788$-kondygnacyjny budynek ma $8788$ pięter: parter oraz $8787$ pięter ponad parterem.\n<i>",
+    "content": "\nDodatnią liczbę całkowitą $n$ nazwiemy <b>piętrową</b>, jeśli da się przejść z dowolnego piętra $8788$-kondygnacyjnego budynku do każdego innego piętra, dopuszczając wyłącznie schodzenie o $2020$ pięter w&nbsp;dół lub wchodzenie o $n$ pięter do góry. Znajdź największą piętrową liczbę. \n\n\\note Uwaga: $8788$-kondygnacyjny budynek ma $8788$ pięter: parter oraz $8787$ pięter ponad parterem.\n<i>",
     "answer": "\n$6763$\n",
     "type": "C",
     "level": 4,
@@ -4260,7 +4260,7 @@
   },
   {
     "ID": "F9398B576F49",
-    "content": "\nZnajdź najmniejszą liczbę całkowitą $k > 1$, dla której nie istnieje taka \\hbox{$k$-cyfrowa} liczba całkowita dodatnia $n$, że każda jej cyfra jest nieparzysta oraz $S(S(n)) = 2 $, gdzie $ S(x)$ oznacza sumę cyfr liczby $ x $.\n<i>",
+    "content": "\nZnajdź najmniejszą liczbę całkowitą $k > 1$, dla której nie istnieje taka $k$-cyfrowa liczba całkowita dodatnia $n$, że każda jej cyfra jest nieparzysta oraz $S(S(n)) = 2 $, gdzie $ S(x)$ oznacza sumę cyfr liczby $ x $.\n<i>",
     "answer": "\n$103$\n",
     "type": "C",
     "level": 4,
@@ -4628,7 +4628,7 @@
   },
   {
     "ID": "7FDDF9C4A737",
-    "content": "\nNiech $x||y$ oznacza konkatenację dwóch dodatnich liczb całkowitych, tzn.&nbsp;liczbę uzyskaną przez napisanie obok siebie wszystkich cyfr występujących w $x$, a następnie tych w $y$, na przykład $3||4=34$, \\hbox{$24||5=245$}, $20||24=2024$.\nDodatnia liczba całkowita $n$ jest nazywana <b>trójwidzialną</b> jeśli istnieją takie trzy parami różne dodatnie liczby całkowite $a$, $b$, $c$ (bez zer wiodących), że $n=a||b||c$ oraz $a$ dzieli $b$ i $b$ dzieli&nbsp;$c$. Jaka jest największa pięciocyfrowa liczba trójwidzialna?\n<i>",
+    "content": "\nNiech $x||y$ oznacza konkatenację dwóch dodatnich liczb całkowitych, tzn.&nbsp;liczbę uzyskaną przez napisanie obok siebie wszystkich cyfr występujących w $x$, a następnie tych w $y$, na przykład $3||4=34$, $24||5=245$, $20||24=2024$.\nDodatnia liczba całkowita $n$ jest nazywana <b>trójwidzialną</b> jeśli istnieją takie trzy parami różne dodatnie liczby całkowite $a$, $b$, $c$ (bez zer wiodących), że $n=a||b||c$ oraz $a$ dzieli $b$ i $b$ dzieli&nbsp;$c$. Jaka jest największa pięciocyfrowa liczba trójwidzialna?\n<i>",
     "answer": "\n$94590$\n",
     "type": "NT",
     "level": 3,
@@ -4732,7 +4732,7 @@
   },
   {
     "ID": "7FDDF9C4A750",
-    "content": "\nNatalia dowiedziała się, czym jest średnia ruchoma. Wzięła swój ulubiony ciąg -- ciąg Fibonacciego $(F_k)_{k=0}^\\infty$ zdefiniowany przez $F_0=0$, $F_1=1$ i \\hbox{$F_n= F_{n-1}+F_{n-2}$} dla każdego $n \\geq 2$, a&nbsp;następnie utworzyła ciąg $(m_k)_{k=6}^{2024}$ średnich ruchomych, który spełnia równość $m_k= \\frac{F_k+F_{k-1}+\\ldots + F_{k-6}}{7}$ dla każdego $k \\geq 6$. Ile wyrazów ciągu $(m_k)_{k=6}^{2024}$ jest liczbami całkowitymi?\n<i>",
+    "content": "\nNatalia dowiedziała się, czym jest średnia ruchoma. Wzięła swój ulubiony ciąg -- ciąg Fibonacciego $(F_k)_{k=0}^\\infty$ zdefiniowany przez $F_0=0$, $F_1=1$ i $F_n= F_{n-1}+F_{n-2}$ dla każdego $n \\geq 2$, a&nbsp;następnie utworzyła ciąg $(m_k)_{k=6}^{2024}$ średnich ruchomych, który spełnia równość $m_k= \\frac{F_k+F_{k-1}+\\ldots + F_{k-6}}{7}$ dla każdego $k \\geq 6$. Ile wyrazów ciągu $(m_k)_{k=6}^{2024}$ jest liczbami całkowitymi?\n<i>",
     "answer": "\n$252$\n",
     "type": "A",
     "level": 5,
@@ -4772,7 +4772,7 @@
   },
   {
     "ID": "7FDDF9C4A755",
-    "content": "\nDany jest prostokąt $ABCD$ oraz taki punkt $E$ leżący na boku $CD$, że \\hbox{$2|DE|=|EC|$}. Niech $F$ będzie punktem przecięcia odcinków $BD$ i $AE$. Wyznacz $\\frac{|AD|}{|AB|}$, jeśli $\\angle AFD = 45^\\circ$.\n<i>",
+    "content": "\nDany jest prostokąt $ABCD$ oraz taki punkt $E$ leżący na boku $CD$, że $2|DE|=|EC|$. Niech $F$ będzie punktem przecięcia odcinków $BD$ i $AE$. Wyznacz $\\frac{|AD|}{|AB|}$, jeśli $\\angle AFD = 45^\\circ$.\n<i>",
     "answer": "\n$\\frac{\\sqrt{7}-2}{3}$\n",
     "type": "G",
     "level": 5,
