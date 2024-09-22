@@ -1,29 +1,29 @@
 
-td:nth-child(3){
+.taskcontainer td:nth-child(3){
     width: 20%;
 }
-td img{
+.taskcontainer td img{
     width: 100%;
     height: 5cm;
     object-fit: contain;
 }
-td:nth-child(2){
+.taskcontainer td:nth-child(2){
     width: calc(80%-1cm);
     text-align: justify;
     vertical-align: top;
 }
-td:nth-child(1){
+.taskcontainer td:nth-child(1){
     width: 1cm;
     text-orientation: mixed;
 
     writing-mode: tb-rl; 
 }
-td:nth-child(1) h1{
+.taskcontainer td:nth-child(1) h1{
     text-orientation: mixed;
     writing-mode: tb-rl;
     text-align: center;
 }
-td:nth-child(1) h2{
+.taskcontainer td:nth-child(1) h2{
     text-orientation: mixed;
     writing-mode: tb-rl;
     text-align: center;
@@ -31,18 +31,13 @@ td:nth-child(1) h2{
 
 .taskcontainer{
     padding-top: 10mm;
-    height: calc(84.25mm - 11mm);
+    height: calc(74.25mm - 11mm);
     page-break-inside: avoid;
     text-align: justify;
     width: 100%;
 }
 
-@media print{
-    .taskcontainer{
-        height: calc(74.25mm - 11mm) !important;
-    }
-}
-table, table tr{
+.taskcontainer table,.taskcontainer  table tr{
     height: calc(74.25mm - 11mm);
 }
 
@@ -55,4 +50,16 @@ body{
     width: 0;
     height: 0;
     page-break-after: always;
+}
+
+.anscontainer{
+    padding-top: 10mm;
+    page-break-inside: avoid;
+}
+.anstable tr td{
+    border: solid 1px;
+    padding: 2px;
+}
+.anstable{
+    border-collapse: collapse;
 }

@@ -4,6 +4,28 @@ async function get_tasks(){
     return a
 }
 
+function TeXtoMathJaxpure(inp){
+    inp = inp.replaceAll("\\begin{itemize}","<ul>")
+    inp = inp.replaceAll("\\end{itemize}","</ul>")
+    inp = inp.replaceAll("\\item","<li>")
+    inp = inp.replaceAll("\\begin{center}", "")
+    inp = inp.replaceAll("\\end{center}", "")
+    inp = inp.replaceAll("\\note", "Uwaga: ")
+    a = inp.split("$")
+    res = ""
+    for(let i = 0; i < a.length;i++){
+        if(i > 0 && i % 2 == 0){
+            res = res + "\\)"
+            a[i] = a[i].replaceAll("~","&nbsp;")
+        }
+        if(i % 2 == 1){
+            res = res + "\\("
+        }
+        res = res + a[i]
+    }
+    return res
+}
+
 function TeXtoMathJax(inp, im, tmn,kod){
     inp = inp.replaceAll("\\begin{itemize}","<ul>")
     inp = inp.replaceAll("\\end{itemize}","</ul>")
@@ -60,5 +82,21 @@ async function start(){
         ndiv2.classList = "pb"
         document.body.appendChild(ndiv2)
     }
+    ansc = document.createElement("div")
+    ans = document.createElement("table")
+    for(let i = 1;i < t.length;i++){
+        ansi = document.createElement("tr")
+        num = document.createElement("td")
+        anst = document.createElement("td")
+        num.innerHTML = i
+        anst.innerHTML = TeXtoMathJaxpure(TL[t[i] * 1].answer)
+        ansi.appendChild(num)
+        ansi.appendChild(anst)
+        ans.appendChild(ansi)
+    }
+    ans.classList = "anstable"
+    ansc.classList = "anscontainer"
+    ansc.appendChild(ans)
+    document.body.appendChild(ansc)
     MathJax.typeset()
 }
