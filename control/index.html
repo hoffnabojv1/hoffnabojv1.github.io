@@ -1,1 +1,20 @@
-
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoffnaboj</title>
+    <link rel = "stylesheet" href="style.css">
+    <link rel = "stylesheet" href="global_style.css">
+    <script src = "../../storage_manager.js"></script>
+    <script src="script.js"></script>
+</head>
+<body onload="start()">
+    <input type="number" class="code" id="codeinp" onkeypress="setTimeout(ckp,10)">
+    <div id="cvch" hidden="hidden">
+        <div id="ok"><br>&uarr;<br>Poprawna odpowiedź</div>
+        <div id="cancel"><br>&larr;<br>Anuluj</div>
+        <div id="burn"><br>&rarr;<br>Spal</div>
+    </div>
+</body>
+</html>
