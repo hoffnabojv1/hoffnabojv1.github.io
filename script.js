@@ -16,4 +16,7 @@ async function init(){
             storage.tasks_used[tasks[i].ID] = false;
         }
     }
+    if(storage.malgosia == undefined){
+        storage.malgosia = {}
+    }
 }
