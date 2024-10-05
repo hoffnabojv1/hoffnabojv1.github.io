@@ -69,6 +69,9 @@ async function start(){
     TN = storage.tempactteams.length
     for(let j = 0; j < TN;j++){
         for(let i = 1; i < t.length;i++){
+            if(j < storage.tempsencount && i <= storage.tempsenskip){
+                continue
+            }
             aktnum = TN * i + j
             kodg = zer(3,(37 + (aktnum + 1) * 69) % 1000)
             kontr = (kodg[0] * 1 + kodg[1] * 3 + kodg[2] * 7) % 10
