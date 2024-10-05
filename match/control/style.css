@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+.code{
+    position: absolute;
+    width: 1000px;
+    left: calc(50vw - 500px);
+    height: 300px;
+    line-height: 300px;
+    top: calc(50vh - 150px);
+    font-size: 250px;
+    text-align: center;
+    border: none;
+    border-bottom: 3px grey solid;
+    outline: none;
+}
+
+.code:focus{
+    border-bottom-color: blue;
+}
+
+.code.err{
+    border-bottom-color: red;
+}
+.code::-webkit-outer-spin-button,
+.code::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#cvch{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left:0;
+    top:0;
+}
+#ok, #cancel, #burn{
+    text-align: center;
+    vertical-align: center;
+    font-size: 100px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+#ok{
+    position: absolute;
+    top:0;
+    background-color: lightgreen;
+    left:0;
+    width: 100vw;
+    height: 50vh;
+}
+#cancel{
+    position: absolute;
+    top:50vh;
+    background-color: coral;
+    left:0;
+    width: 50vw;
+    height: 50vh;
+}
+#burn{
+    position: absolute;
+    top:50vh;
+    background-color: black;
+    left:50vw;
+    width: 50vw;
+    height: 50vh;
+}
