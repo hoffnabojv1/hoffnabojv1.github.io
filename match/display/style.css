@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    background-image: url("bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+}
+
+.row{
+    background-color: #ffffff;
+    width: calc(90vw - 100px);
+    height: 75px;
+    border-radius: 37.5px;
+    font-family: ubuntu, sans-serif;
+    color:black;
+    font-size: 34px;
+    line-height: 75px;
+    padding-left: 100px;
+    position: relative;
+    margin-top: 15px;
+    font-weight: 600;
+    opacity: 0.76;
+    z-index: 1;
+}
+.kasia{
+    position: absolute;
+    left: 5vw;
+    width: 90vw;
+}
+.pos{
+    position: absolute;
+    left: 0;
+    top:0;
+    height: 75px;
+    width: 75px;
+    line-height: 75px;
+    font-size: 35px;
+    border-radius: 37.5px;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    z-index: 3;
+}
+.pos.first{
+    background-color: #ffde59;
+}
+.pos.second{
+    background-color: #aaaaaa;
+}
+.pos.third{
+    background-color: #cd7f32;
+}
+
+.score{
+    width: 100px;
+    height: 75px;
+    border-radius: 37.5px;
+    position: absolute;
+    top:0;
+    left: 500px;
+    background-color: #c0c0c0;
+    text-align: center;
+    font-size: 19px;
+    font-family:'Open Sans';
+}
+
+.col{
+    position: absolute;
+    top: 15px;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 75px;
+    border-radius: 37.5px;
+    z-index: 1;
+}
+.SJT{
+    color: white;
+    font-family: ubuntu, sans-serif;
+    line-height: 75px;
+    margin-bottom:0;
+    margin-top: 15px;
+}
+.tasknum{
+    position: absolute;
+    left: 0;
+    top:0;
+    height: 75px;
+    width: 75px;
+    line-height: 75px;
+    font-size: 35px;
+    border-radius: 37.5px;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    background-color: #cccccc;
+}
+
+.circ{
+    height: 75px;
+    width: 75px;
+    border-radius: 37.5px;
+    margin-left: 0;
+    margin-top: 15px;
+    margin-bottom: 0;
+    margin-right: 0;
+    z-index: 3;
+}
+.circ:nth-child(2){
+    margin-top: 90px;
+}
+.circ.burnt{
+    background-color: black;
+}
+.circ.done{
+    background-color: green;
+}
+.circ.undone{
+    background-color: red;
+}
+.circ.progress{
+    background-color: blue;
+}
+.collast{
+    left: calc(90vw - 1.5*75px)
+}
