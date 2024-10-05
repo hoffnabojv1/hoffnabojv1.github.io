@@ -13,9 +13,9 @@
     <div id="preview">
         <iframe id = "preif">
         </iframe>
-        <button onclick = "preview.style.display = 'none'">Wróć do generatora</button><br>
-        <button onclick = "generate_tasks()">Wygeneruj jeszcze raz</button><br>
-        <button onclick = "useset()">Użyj tego zestawu</button><br>
+        <button onclick = "preview.style.display = 'none'">Wróć do generatora</button>
+        <button onclick = "generate_tasks()">Wygeneruj jeszcze raz</button>
+        <button onclick = "useset()">Użyj tego zestawu</button>
         <button onclick="preif.contentWindow.document.getElementById('pribut').click()">Drukuj/ zapisz jako PDF</button>
     </div>
     <label>Liczba zadań:</label>
@@ -40,8 +40,12 @@
         </tr>
     </table>
     Rozkład poziomów trudności i działów będzie znormalizowany przed rozpoczęciem generacji zestawu zadań.<br>
-    Lista drużyn:
-    <textarea id="teamstempinp"></textarea>
+    Lista drużyn seniorskich:<br>
+    <textarea id="teamstempinpsen"></textarea><br>
+    Lista drużyn juniorskich:<br>
+    <textarea id="teamstempinpjun"></textarea><br>
+    Pierwsze zadanie seniorów:<br>
+    <input type="number" value="11" id="senskipinp"><br>
     <input type="button" value="Generuj zestaw" onclick="generate_tasks()">
 </body>
 </html>

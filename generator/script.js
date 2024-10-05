@@ -124,6 +124,17 @@ function intnorm(inp){
     return range(0,inp.length).map(x => pref[x + 1] - pref[x])
 }
 let akttaskset
+
+function clarr(inp){
+    if(inp.length != 1){
+        return inp
+    }
+    if(inp[0].length != 0){
+        return inp
+    }
+    return []
+}
+
 function generate_tasks(){
     levels = []
     for(let i = 0; i < 6;i++){
@@ -137,7 +148,9 @@ function generate_tasks(){
     types = normalize(types)
     taskset = tasknums(levels,types)
     akttaskset = taskset
-    storage.tempactteams = teamstempinp.value.split("\n")
+    storage.tempactteams = clarr(teamstempinpsen.value.split("\n")).concat(clarr(teamstempinpjun.value.split("\n")))
+    storage.tempsencount = clarr(teamstempinpsen.value.split("\n")).length
+    storage.tempsenskip = senskipinp.value * 1 - 1
     preif.src = "/generator/preview#" + taskset.reduce( (x,y) => x + "#" + y)
     preview.style.display = "unset"
 }
