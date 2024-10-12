@@ -35,7 +35,7 @@ function game(){
     storage.malgosia[gameID].senteams = clarr(senlist.value.split("\n"))
     storage.malgosia[gameID].Ntasks = ntasks.value * 1
     storage.malgosia[gameID].senskip = senskip.value * 1 - 1
-    storage.malgosia[gameID].sensc = gentab(6,storage.malgosia[gameID].senteams.length,storage.malgosia[gameID].Ntasks, 10)
+    storage.malgosia[gameID].sensc = gentab(6,storage.malgosia[gameID].senteams.length,storage.malgosia[gameID].Ntasks, storage.malgosia[gameID].senskip)
     storage.malgosia[gameID].junsc = gentab(6,storage.malgosia[gameID].junteams.length,storage.malgosia[gameID].Ntasks)
     storage.malgosia[gameID].sennext = genarr(5 + senskip.value * 1, storage.malgosia[gameID].senteams.length)
     storage.malgosia[gameID].junnext = genarr(6, storage.malgosia[gameID].junteams.length)
