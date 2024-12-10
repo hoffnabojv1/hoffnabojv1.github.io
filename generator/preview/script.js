@@ -47,9 +47,9 @@ function TeXtoMathJax(inp, im, tmn,kod){
     }
     if (im.length != 0){
         im2 = im.map(x => "<img src = '" + x + "'>\n")
-        res = "<table><tr><td><h2>"+tmn+"</h2><h1>"+kod+"</h1></td><td>" + res + "</td><td>" + im2.reduce((x,y) => x + y) + "</td></tr></table>"
+        res = "<table><tr><td><h2>"+tmn+"</h2><img src= 'https://www.barcode-generator.org/zint/api.php?bc_number=20&bc_data="+kod+"'></td><td>" + res + "</td><td>" + im2.reduce((x,y) => x + y) + "</td></tr></table>"
     }else{
-        res = "<table><tr><td><h2>"+tmn+"</h2><h1>"+kod+"</h1></td><td style='width: calc(100% - 1cm)'>" + res + "</td></tr></table>"
+        res = "<table><tr><td><h2>"+tmn+"</h2><img src= 'https://www.barcode-generator.org/zint/api.php?bc_number=20&bc_data="+kod+"'></td><td style='width: calc(100% - 1cm)'>" + res + "</td></tr></table>"
     }
     return res
 }
@@ -67,8 +67,8 @@ async function start(){
     TL = await get_tasks()
     t = location.hash.split("#")
     TN = storage.tempactteams.length
-    for(let j = 0; j < TN;j++){
-        for(let i = 1; i < t.length;i++){
+    for(let i = 1; i < t.length;i++){
+        for(let j = 0; j < TN;j++){
             if(j < storage.tempsencount && i <= storage.tempsenskip){
                 continue
             }

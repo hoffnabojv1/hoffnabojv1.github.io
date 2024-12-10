@@ -1,6 +1,6 @@
 
 .taskcontainer td:nth-child(3){
-    width: 20%;
+    width: 30%;
 }
 .taskcontainer td img{
     width: 100%;
@@ -8,20 +8,28 @@
     object-fit: contain;
 }
 .taskcontainer td:nth-child(2){
-    width: calc(80%-1cm);
+    width: calc(70% -1cm);
     text-align: justify;
     vertical-align: top;
+    -webkit-user-modify: read-write;
+    -moz-user-modify: read-write;
+    user-modify: read-write;
 }
 .taskcontainer td:nth-child(1){
     width: 1cm;
     text-orientation: mixed;
-
     writing-mode: tb-rl; 
 }
 .taskcontainer td:nth-child(1) h1{
     text-orientation: mixed;
     writing-mode: tb-rl;
     text-align: center;
+}
+.taskcontainer td:nth-child(1) img{
+    width: 80%;
+    height: 5cm;
+    object-fit: contain;
+    transform: rotate(90deg);
 }
 .taskcontainer td:nth-child(1) h2{
     text-orientation: mixed;
