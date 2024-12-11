@@ -132,6 +132,9 @@ function start(){
                 alert("Rozmrożono wyniki")
             } 
         }
+        if(e.key == "s"){
+            storage.malgosia[gameID].slidenum++;
+        }      
     };
 }
 
