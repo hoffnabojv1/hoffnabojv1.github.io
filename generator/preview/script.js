@@ -67,8 +67,27 @@ async function start(){
     TL = await get_tasks()
     t = location.hash.split("#")
     TN = storage.tempactteams.length
+    
     for(let i = 1; i < t.length;i++){
-        for(let j = 0; j < TN;j++){
+        for(let j = storage.tempsencount; j < TN;j++){
+            if(j < storage.tempsencount && i <= storage.tempsenskip){
+                continue
+            }
+            aktnum = TN * i + j
+            kodg = zer(3,(37 + (aktnum + 1) * 69) % 1000)
+            kontr = (kodg[0] * 1 + kodg[1] * 3 + kodg[2] * 7) % 10
+            kodg = kodg + (""+ kontr)
+            ndiv = document.createElement("div")
+            ndiv.classList = "taskcontainer"
+            ndiv.innerHTML = TeXtoMathJax("\\(\\textbf{Zadanie " + i + ".}\\) " + TL[t[i] * 1].content, TL[t[i] * 1].images, storage.tempactteams[j], kodg)
+            document.body.appendChild(ndiv)
+        }
+        ndiv2 = document.createElement("div")
+        ndiv2.classList = "pb"
+        document.body.appendChild(ndiv2)
+    }
+    for(let i = storage.tempsenskip + 1; i < t.length;i++){
+        for(let j = 0; j < storage.tempsencount;j++){
             if(j < storage.tempsencount && i <= storage.tempsenskip){
                 continue
             }
