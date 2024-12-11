@@ -123,7 +123,6 @@ function gentab(teamlist, scores, ft, lt, tit){
 
 let tablist = []
 let gameID
-let slidenum = 0
 const Cwidth = 13
 const Stime = 10000
 const Synctime = 10
@@ -132,12 +131,13 @@ function slideswap(){
     for(let i = 0; i < tablist.length;i++){
         document.body.children[i].style.display = "none"
     }
-    document.body.children[slidenum].style.display = "unset";
-    slidenum++;
-    slidenum = slidenum % tablist.length;
+    document.body.children[storage.malgosia[gameID].slidenum].style.display = "unset";
+    storage.malgosia[gameID].slidenum++;
+    storage.malgosia[gameID].slidenum = storage.malgosia[gameID].slidenum % tablist.length;
 }
 
 function akt(){
+    storage.malgosia[gameID].slidenum = storage.malgosia[gameID].slidenum % tablist.length;
     if(storage.malgosia[gameID].frozen){
         return
     }
@@ -156,7 +156,7 @@ function akt(){
     for(let i = 0; i < tablist.length;i++){
         document.body.children[i].style.display = "none"
     }
-    document.body.children[slidenum].style.display = "unset";
+    document.body.children[storage.malgosia[gameID].slidenum].style.display = "unset";
 }
 
 function start(){
@@ -172,6 +172,7 @@ function start(){
     for(let i = 0; i < tablist.length;i++){
         document.body.appendChild(tablist[i])
     }
+    storage.malgosia[gameID].slidenum = 0
     setInterval(slideswap,Stime)
     setInterval(akt, Synctime)
 }
