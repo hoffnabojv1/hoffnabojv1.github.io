@@ -131,24 +131,27 @@ function slideswap(){
     for(let i = 0; i < tablist.length;i++){
         document.body.children[i].style.display = "none"
     }
-    document.body.children[storage.malgosia[gameID].slidenum].style.display = "unset";
+    document.body.children[storage.malgosia[gameID].slidenum].style.display = "block";
+    if(storage.malgosia[gameID].slidenum + Math.ceil(storage.malgosia[gameID].junsc[0].length/Cwidth) < tablist.length){
+        document.body.children[storage.malgosia[gameID].slidenum + Math.ceil(storage.malgosia[gameID].junsc[0].length/Cwidth)].style.display = "block";
+    }
     storage.malgosia[gameID].slidenum++;
-    storage.malgosia[gameID].slidenum = storage.malgosia[gameID].slidenum % tablist.length;
+    storage.malgosia[gameID].slidenum = storage.malgosia[gameID].slidenum % Math.ceil(storage.malgosia[gameID].junsc[0].length/Cwidth);
 }
 
 function akt(){
-    storage.malgosia[gameID].slidenum = storage.malgosia[gameID].slidenum % tablist.length;
+    storage.malgosia[gameID].slidenum = storage.malgosia[gameID].slidenum % Math.ceil(storage.malgosia[gameID].junsc[0].length/Cwidth);;
     if(storage.malgosia[gameID].frozen){
         return
     }
     oldtablist = tablist
     tablist = []
-    Ntasks = storage.malgosia[gameID].sensc[0].length
-    for(let i = storage.malgosia[gameID].senskip; i < storage.malgosia[gameID].sensc[0].length;i = i + Cwidth){
-        tablist.push(gentab(storage.malgosia[gameID].senteams, storage.malgosia[gameID].sensc,i, Math.min(i + Cwidth - 1, Ntasks - 1),"Seniorzy"))
-    }    
+    Ntasks = storage.malgosia[gameID].sensc[0].length    
     for(let i = 0; i < storage.malgosia[gameID].junsc[0].length;i = i + Cwidth){
         tablist.push(gentab(storage.malgosia[gameID].junteams, storage.malgosia[gameID].junsc,i,Math.min(i + Cwidth - 1, Ntasks - 1),"Juniorzy"))
+    }
+    for(let i = storage.malgosia[gameID].senskip; i < storage.malgosia[gameID].sensc[0].length;i = i + Cwidth){
+        tablist.push(gentab(storage.malgosia[gameID].senteams, storage.malgosia[gameID].sensc,i, Math.min(i + Cwidth - 1, Ntasks - 1),"Seniorzy"))
     }
     for(let i = 0; i < tablist.length;i++){
         document.body.replaceChild(tablist[i], oldtablist[i])
@@ -156,18 +159,21 @@ function akt(){
     for(let i = 0; i < tablist.length;i++){
         document.body.children[i].style.display = "none"
     }
-    document.body.children[storage.malgosia[gameID].slidenum].style.display = "unset";
+    document.body.children[storage.malgosia[gameID].slidenum].style.display = "block";
+    if(storage.malgosia[gameID].slidenum + Math.ceil(storage.malgosia[gameID].junsc[0].length/Cwidth) < tablist.length){
+        document.body.children[storage.malgosia[gameID].slidenum + Math.ceil(storage.malgosia[gameID].junsc[0].length/Cwidth)].style.display = "block";
+    }
 }
 
 function start(){
     storage_init()
     gameID = location.hash.substring(1)
     Ntasks = storage.malgosia[gameID].sensc[0].length
-    for(let i = storage.malgosia[gameID].senskip; i < storage.malgosia[gameID].sensc[0].length;i = i + Cwidth){
-        tablist.push(gentab(storage.malgosia[gameID].senteams, storage.malgosia[gameID].sensc,i, Math.min(i + Cwidth - 1, Ntasks - 1),"Seniorzy"))
-    }    
     for(let i = 0; i < storage.malgosia[gameID].junsc[0].length;i = i + Cwidth){
         tablist.push(gentab(storage.malgosia[gameID].junteams, storage.malgosia[gameID].junsc,i,Math.min(i + Cwidth - 1, Ntasks - 1),"Juniorzy"))
+    }
+    for(let i = storage.malgosia[gameID].senskip; i < storage.malgosia[gameID].sensc[0].length;i = i + Cwidth){
+        tablist.push(gentab(storage.malgosia[gameID].senteams, storage.malgosia[gameID].sensc,i, Math.min(i + Cwidth - 1, Ntasks - 1),"Seniorzy"))
     }
     for(let i = 0; i < tablist.length;i++){
         document.body.appendChild(tablist[i])
