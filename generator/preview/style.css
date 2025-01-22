@@ -8,7 +8,8 @@
     object-fit: contain;
 }
 .taskcontainer td:nth-child(2){
-    width: calc(70% -1cm);
+    padding-left: 2mm;
+    width: calc(70% -1.2cm);
     text-align: justify;
     vertical-align: top;
     -webkit-user-modify: read-write;
@@ -26,18 +27,20 @@
     text-align: center;
 }
 .taskcontainer td:nth-child(1) img{
-    width: 80%;
+    width: 100%;
     height: 5cm;
     object-fit: contain;
     transform: rotate(90deg);
 }
 .taskcontainer td:nth-child(1) h2{
+    text-overflow: clip;
     text-orientation: mixed;
     writing-mode: tb-rl;
     text-align: center;
 }
 
 .taskcontainer{
+    border-top: solid 1px;
     padding-top: 10mm;
     height: calc(74.25mm - 11mm);
     page-break-inside: avoid;
