@@ -1,5 +1,7 @@
 let gameID
+let accept;
 function malgosia(code, N){
+    N = storage.malgosia[gameID].Ntasks + 1
     if("0123456789".indexOf(code[0])<0){
         return {"ok":false}
     }
@@ -17,22 +19,22 @@ function malgosia(code, N){
         return {"ok":false}
     }
     t1 = code[0] + code[1] + code[2]
-    aktnum = (t1 * 29 + 926) % 1000
-    return {"ok":true, "team":aktnum % N, "task": Math.floor(aktnum / N) - 1}
+    aktnum = ((t1 - 37 + 1000) * 29) % 1000
+    return {"ok":true, "team": Math.floor(aktnum / N), "task": (aktnum % N) - 1}
 }
 
 function brunon(code){ //Brunon the Burner
     juncount = storage.malgosia[gameID].junteams.length
     sencount = storage.malgosia[gameID].senteams.length
     gosia = malgosia(code, juncount + sencount)
-    if(gosia.team < sencount){
+    if(gosia.team >= juncount){
+        gosia.team = gosia.team - juncount
         storage.malgosia[gameID].sensc[gosia.team][gosia.task] = -1
         if(storage.malgosia[gameID].sennext[gosia.team] < storage.malgosia[gameID].sensc[gosia.team].length){
             storage.malgosia[gameID].sensc[gosia.team][storage.malgosia[gameID].sennext[gosia.team]] = 1
             storage.malgosia[gameID].sennext[gosia.team]++
         }
     }else{
-        gosia.team = gosia.team - sencount
         storage.malgosia[gameID].junsc[gosia.team][gosia.task] = -1
         if(storage.malgosia[gameID].junnext[gosia.team] < storage.malgosia[gameID].junsc[gosia.team].length){
             storage.malgosia[gameID].junsc[gosia.team][storage.malgosia[gameID].junnext[gosia.team]] = 1
@@ -46,14 +48,21 @@ function done(code){
     juncount = storage.malgosia[gameID].junteams.length
     sencount = storage.malgosia[gameID].senteams.length
     gosia = malgosia(code, juncount + sencount)
-    if(gosia.team < sencount){
+    if(gosia.team >= juncount){
+        gosia.team = gosia.team - juncount
+        if(
+            storage.malgosia[gameID].sensc[gosia.team][gosia.task] == 2){
+                return;
+            }
         storage.malgosia[gameID].sensc[gosia.team][gosia.task] = 2
         if(storage.malgosia[gameID].sennext[gosia.team] < storage.malgosia[gameID].sensc[gosia.team].length){
             storage.malgosia[gameID].sensc[gosia.team][storage.malgosia[gameID].sennext[gosia.team]] = 1
             storage.malgosia[gameID].sennext[gosia.team]++
         }
     }else{
-        gosia.team = gosia.team - sencount
+        if(storage.malgosia[gameID].junsc[gosia.team][gosia.task] == 2){
+            return;
+        }
         storage.malgosia[gameID].junsc[gosia.team][gosia.task] = 2
         if(storage.malgosia[gameID].junnext[gosia.team] < storage.malgosia[gameID].junsc[gosia.team].length){
             storage.malgosia[gameID].junsc[gosia.team][storage.malgosia[gameID].junnext[gosia.team]] = 1
@@ -66,14 +75,14 @@ function undone(code){
     juncount = storage.malgosia[gameID].junteams.length
     sencount = storage.malgosia[gameID].senteams.length
     gosia = malgosia(code, juncount + sencount)
-    if(gosia.team < sencount){
+    if(gosia.team >= juncount){
+        gosia.team = gosia.team - juncount
         storage.malgosia[gameID].sensc[gosia.team][gosia.task] = 1
         if(storage.malgosia[gameID].sennext[gosia.team]-1 < storage.malgosia[gameID].sensc[gosia.team].length){
             storage.malgosia[gameID].sennext[gosia.team]--
             storage.malgosia[gameID].sensc[gosia.team][storage.malgosia[gameID].sennext[gosia.team]] = 0
         }
     }else{
-        gosia.team = gosia.team - sencount
         storage.malgosia[gameID].junsc[gosia.team][gosia.task] = 1
         if(storage.malgosia[gameID].junnext[gosia.team]-1 < storage.malgosia[gameID].junsc[gosia.team].length){
             storage.malgosia[gameID].junnext[gosia.team]--
@@ -83,6 +92,7 @@ function undone(code){
 }
 
 function start(){
+    accept = false;
     gameID = location.hash.substring(1)
     storage_init();
     codeinp.focus()
@@ -134,7 +144,15 @@ function start(){
         }
         if(e.key == "s"){
             storage.malgosia[gameID].slidenum++;
-        }      
+        }
+        if(e.key == "a"){
+            accept = !accept;
+            if(accept){
+                alert("Automatyczna akceptacja włączona")
+            }else{
+                alert("Automatyczna akceptacja wyłączona")
+            }
+        } 
     };
 }
 
@@ -149,8 +167,15 @@ function ckp(){
     if(inp.length == 4){
         if(malgosia(inp,10).ok){
             codeinp.classList = "code"
+            if(accept){
+                done(inp)
+                codeinp.value = ""
+                cvch.hidden="hidden"
+                codeinp.focus()
+            }else{
             cvch.hidden=""
             codeinp.blur()
+            }
         }else{
             codeinp.classList = "code err"
         }
