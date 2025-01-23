@@ -126,6 +126,9 @@ function read_columns(matrix){
     result = []
     for(let i = 0; i < matrix[0].length;i++){
         for(let j = 0; j < matrix.length;j++){
+            if(matrix[j].length <= i){
+                continue;
+            }
             result.push(matrix[j][i])
         }
     }
