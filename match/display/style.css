@@ -32,7 +32,7 @@ body{
     position: relative;
     left: 5vw;
     width: 90vw;
-    height: calc(min(fit-content,40vh));
+    height: calc(min(fit-content + 30px,40vh));
 }
 .pos{
     position: absolute;
