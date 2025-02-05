@@ -64,3 +64,34 @@
     width: 50vw;
     height: 50vh;
 }
+
+.alert{
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    background-color: rgb(255, 205, 187);
+    border: none;
+    border-radius: 30px;
+    padding: 20px;
+    width: 300px;
+}
+
+.alert h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+}
+
+.alert p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.alert button{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
