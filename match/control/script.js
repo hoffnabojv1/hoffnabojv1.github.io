@@ -170,14 +170,14 @@ function ckp(){
             debugger
             juncount = storage.malgosia[gameID].junteams.length
             if(decoded.team < juncount){
-                if(storage.malgosia[gameID].junsc[decoded.team][decoded.task] != 1){
+                if(storage.malgosia[gameID].junsc[decoded.team][decoded.task] == 0){
                     showalert("Zadanie " + (decoded.task + 1) + " drużyny " + storage.malgosia[gameID].junteams[decoded.team] + " nie powinno być jescze wydane")
                     codeinp.value = ""
                     return;
                 }
             }
             if(decoded.team >= juncount){
-                if(storage.malgosia[gameID].sensc[decoded.team - storage.malgosia[gameID].juncount][decoded.task] != 1){
+                if(storage.malgosia[gameID].sensc[decoded.team - storage.malgosia[gameID].juncount][decoded.task] == 0){
                     showalert("Zadanie " + (decoded.task + 1) + " drużyny " + storage.malgosia[gameID].senteams[decoded.team - storage.malgosia[gameID].juncount] + " nie powinno być jescze wydane")
                     codeinp.value = ""
                     return;
