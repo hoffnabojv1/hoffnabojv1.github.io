@@ -119,7 +119,7 @@ function gentab(teamlist, scores, ft, lt, tit){
         el.appendChild(gencol(scl.length,lt + 1 - ft, k - ft, k + 1,colval[k-ft]))
     }
     if(teamlist.length == 1 && teamlist[0] == "HIDE THIS TEAM"){
-        el.hidden = "hidden"
+        el.style.opacity="0";
     }
     return el
 }
