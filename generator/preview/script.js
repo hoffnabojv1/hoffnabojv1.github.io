@@ -47,9 +47,9 @@ function TeXtoMathJax(inp, im, tmn,kod){
     }
     if (im.length != 0){
         im2 = im.map(x => "<img src = '" + x + "'>\n")
-        res = "<table><tr><td><h2>"+tmn+"</h2><img src= 'https://quickchart.io/barcode?type=code128&text="+kod+"'></td><td>" + res + "</td><td>" + im2.reduce((x,y) => x + y) + "</td></tr></table>"
+        res = "<table><tr><td><h2>"+tmn+"</h2><img src= 'https://quickchart.io/barcode?type=code128&text="+kod+"'><p class='taskcode'>"+kod+"</p></td><td>" + res + "</td><td>" + im2.reduce((x,y) => x + y) + "</td></tr></table>"
     }else{
-        res = "<table><tr><td><h2>"+tmn+"</h2><img src= 'https://quickchart.io/barcode?type=code128&text="+kod+"'></td><td style='width: calc(100% - 1cm)'>" + res + "</td></tr></table>"
+        res = "<table><tr><td><h2>"+tmn+"</h2><img src= 'https://quickchart.io/barcode?type=code128&text="+kod+"'><p class='taskcode'>"+kod+"</p></td><td style='width: calc(100% - 1cm)'>" + res + "</td></tr></table>"
     }
     return res
 }
