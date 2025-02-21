@@ -156,6 +156,7 @@ async function start(){
         add_task_to_body(junior_list[i][1],junior_list[i][0])
     }
     //Senior loop
+    if(senior_teams>0){
     senior_matrix = []
     for(let teamnum = 0; teamnum < senior_teams; teamnum++){
         senior_matrix.push([])
@@ -165,8 +166,10 @@ async function start(){
     }
     senior_matrix = normalise(senior_matrix)
     senior_list = read_columns(senior_matrix)
+    
     for(let i = 0; i < senior_list.length;i++){
         add_task_to_body(senior_list[i][1],senior_list[i][0])
+    }
     }
     ansc = document.createElement("div")
     ans = document.createElement("table")
