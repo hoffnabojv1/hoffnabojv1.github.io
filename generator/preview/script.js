@@ -76,7 +76,7 @@ function add_task_to_body(task_number, team_number){
     kodg = kodg + (""+ kontr)
     ndiv = document.createElement("div")
     ndiv.classList = "taskcontainer"
-    ndiv.innerHTML = TeXtoMathJax("\\(\\textbf{Zadanie " + task_number + ".}\\) " + TL[t[task_number] * 1].content, TL[t[task_number] * 1].images, storage.tempactteams[(team_number + storage.tempsenskip) % storage.tempactteams.length], kodg)
+    ndiv.innerHTML = TeXtoMathJax("\\(\\textbf{Zadanie " + task_number + ".}\\) " + TL[t[task_number] * 1].content, TL[t[task_number] * 1].images, storage.tempactteams[(team_number + senior_teams) % storage.tempactteams.length], kodg)
     document.body.appendChild(ndiv)
 }
 
